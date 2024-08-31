@@ -52,7 +52,7 @@ Before starting, ensure you have the following installed:
 ```bash
     python kafka_producer.ipynb
 ```
-- This script reads data from data/logistics.csv, serializes it into Avro format, and publishes it to the Kafka topic logistics-topic.
+- This script reads data from data/logistics.csv, serializes it into Avro format, and publishes it to the Kafka topic fedex_logistics.
 
 3. **Run Kafka consumer:**
 ```bash
