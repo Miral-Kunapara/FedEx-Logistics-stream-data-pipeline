@@ -55,10 +55,8 @@ Before starting, ensure you have the following installed:
 - This script reads data from data/logistics.csv, serializes it into Avro format, and publishes it to the Kafka topic fedex_logistics.
 
 3. **Run Kafka consumer:**
-```bash
-    python kafka_consumer.py
-```
-- The consumer script subscribes to logistics-topic, deserializes Avro data, validates it, and ingests it into MongoDB.
+- In this project, the Kafka MongoDB Sink Connector is utilized to establish a connection between Kafka and MongoDB, facilitating data transfer into MongoDB. Within this setup, the Kafka MongoDB Sink Connector operates as the consumer.
+- The consumer script subscribes to fedex_logistics topic , deserializes Avro data, validates it, and ingests it into MongoDB.
 ----------------------------------------
 
 ### **Schema Registry**
