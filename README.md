@@ -32,18 +32,13 @@ Before starting, ensure you have the following installed:
 
 ### Setup and Installation
 
-1. **Clone the repository:**
 
-   ```bash
-   https://github.com/iamsnkr/fedex_logistics_stream_data_pipeline.git
-   cd repository
-   ```
-2. **Install dependencies:**
+1. **Install dependencies:**
 
    ```bash
      pip install -r requirements.txt
    ```   
-3. **Set up Kafka and MongoDB:**
+2. **Set up Kafka and MongoDB:**
 
 - Install and configure Kafka according to the official documentation.
 - Set up MongoDB and create a database and collection for storing data.
