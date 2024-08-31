@@ -10,7 +10,7 @@ This repository provides a framework for building a data streaming pipeline usin
 5. [Schema Registry](#schema-registry)
 6. [Kafka Producer](#kafka-producer)
 7. [Kafka Consumer](#kafka-consumer)
-8. [Data Visualization](#data-validation)
+8. [Data Visualization](#data-Visualization)
 
 
 ### Introduction
