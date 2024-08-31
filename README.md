@@ -1,6 +1,8 @@
 # Fedex-Logistics-Stream-Data-Pipeline
 This repository provides a framework for building a data streaming pipeline using Kafka and MongoDB, aimed at visualizing logistics data through a dashboard
 
+![alt text](diagram.png)
+
 ### Table of Contents
 
 1. [Introduction](#introduction)
@@ -72,4 +74,4 @@ Before starting, ensure you have the following installed:
 - Visualizing FedEx logistics information involves transforming the data stored in MongoDB into meaningful charts or graphs that provide insights into various aspects of the shipment.
 - ![alt text](datainfo1.png)
 - ![alt text](datainfo2.jpg)
-- ![alt text](datainfo3.jpg)
+
