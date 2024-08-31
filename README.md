@@ -70,6 +70,6 @@ Before starting, ensure you have the following installed:
 
 ### **Data Visualization**
 - Visualizing FedEx logistics information involves transforming the data stored in MongoDB into meaningful charts or graphs that provide insights into various aspects of the shipment.
-- ![alt text](datainfo3.png)
-- ![alt text](datainfo2.png)
 - ![alt text](datainfo1.png)
+- ![alt text](datainfo2.png)
+- ![alt text](datainfo3.png)
