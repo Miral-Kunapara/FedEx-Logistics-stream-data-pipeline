@@ -66,7 +66,7 @@ Before starting, ensure you have the following installed:
 - The Kafka producer script (kafka_producer.ipynb) serializes data into Avro format using an Avro schema fetched from Schema Registry, and publishes messages to Kafka.
 
 ### **Kafka Consumer**
-- The Kafka consumer script (kafka_consumer.py) subscribes to the Kafka topic, deserializes Avro data using the schema fetched from Schema Registry and inserts valid records into MongoDB.
+- The Kafka consumer(Mongodb Sink Connetor) subscribes to the Kafka topic, deserializes Avro data using the schema fetched from Schema Registry and inserts valid records into MongoDB.
 
 ### **Data Visualization**
 - Visualizing FedEx logistics information involves transforming the data stored in MongoDB into meaningful charts or graphs that provide insights into various aspects of the shipment.
